@@ -1,0 +1,30 @@
+.Intro {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &::before {
+        content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('../assets/pictures/leaf-pexels-suzy-hazelwood-2495651.jpg');
+    opacity: 0.75;
+    }
+    .introInfo {
+        color: white;
+        font-size: 36px;
+        font-weight: 900;
+        position: absolute;
+        text-shadow: 0 0 10px var(--policeBlue);
+        // -webkit-text-stroke: 1px var(--policeBlue); 
+        
+
+    }
+}

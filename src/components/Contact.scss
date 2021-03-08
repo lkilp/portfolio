@@ -1,0 +1,25 @@
+.Contact {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &::before {
+        content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('../assets/pictures/contact-pexels-jess-bailey-designs-1558690.jpg');
+    opacity: 0.65;
+    }
+
+    .contactDetails {
+        position: absolute;
+    }
+}
