@@ -1,5 +1,5 @@
 .Courses {
-    min-height: 100vh;
+    min-height: 200vw;
     position: relative;
 
     &::before {
@@ -16,4 +16,43 @@
     opacity: 0.75;
     }
 
+    .course {
+        position: absolute;
+        padding: 1vw;
+        padding-top: 1vw;
+        padding-bottom: 3vw;
+        width: 14vw;
+        height: 18vw;
+        font-size: 2vw;
+        margin-left: -6vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(white, 0.95);
+        transform-origin: center center;
+        box-sizing: border-box;
+
+        img {
+            position: absolute;
+            bottom: 1vw;
+            left: 1vw;
+            height: 1vw;
+        }
+    } 
+
+    .title {
+        padding: 2vw;
+        width: 100vw;
+        font-size: 1.17em;
+        font-weight: bold;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        background: var(--policeBlue);
+        color: white;
+        box-sizing: border-box;
+        transform-origin: center center;
+    }
+
+   
 }
