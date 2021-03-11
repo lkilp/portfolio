@@ -17,18 +17,15 @@ class Box {
 const container = React.createRef();
 const Courses = () => {
     
-    const [scrollOffset, setScrollOffset] = useState(window.pageYOffset);
     const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
 
     const [containerRect, setContainerRect] = useState(new DOMRect());
 
     useEffect(() => {
         const onScroll = (e) => {
-            const offset = window.pageYOffset;
-            if(container.current) {
+           if(container.current) {
                 setContainerRect(container.current.getBoundingClientRect())
             }
-            setScrollOffset(offset);
         }
         const onResize = () => {
             setViewportWidth(window.innerWidth);
@@ -63,12 +60,6 @@ const boxes = [
     new Box('Building Interactive JavaScript Websites', 50, 115, 1.5),
     new Box('Learn How To Code', 85, 190)
 ];
-
-
-    const verticalViewport = {
-        min: scrollOffset,
-        max: scrollOffset + window.innerHeight,
-    };
 
     const viewportCenter = - (containerRect.top - 0.5*window.innerHeight);
 
