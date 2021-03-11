@@ -22,5 +22,14 @@
 
     .contactDetails {
         position: absolute;
+
+        a {
+            text-decoration: none;
+            color: #005db6;
+        }
+
+        a:hover {
+            font-size: 26px;
+        }
     }
 }
