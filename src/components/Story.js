@@ -19,7 +19,7 @@ const Story = () => {
                 <h3>Languages</h3>
                 <div>I love learning and making things better. Whilst studying my fifth human language (Dutch) I got introduced to computer languages, a whole new World of challenges and opportunities!</div>
                 <div>I have been studying front-end development with the help of Codecademy as well as being mentored and tutored by a 
-                    <div className='link'><a target='_blank' href='https://www.linkedin.com/in/rinkevandenberg/'>full stack developer</a></div> 
+                    <div className='link'><a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/rinkevandenberg/'>full stack developer</a></div> 
                     who has over 12 years of experience in the industry.
                 </div>
             </div>

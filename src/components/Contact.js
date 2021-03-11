@@ -9,7 +9,7 @@ const Contact = () => {
             <div className='contactDetails'>
                 <h1>Let's work together!</h1>
                 <h2>kilp.liis@gmail.com</h2>
-                <h2><a target='_blank' href='https://www.linkedin.com/in/liiskilp/'>linkedin.com/in/liiskilp</a></h2>
+                <h2><a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/liiskilp/'>linkedin.com/in/liiskilp</a></h2>
             </div>
         </div>
     )
