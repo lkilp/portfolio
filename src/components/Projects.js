@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <div className='Projects'>
             <h3>Projects</h3>
-            <a className='project quiz' target='_blank' rel='noreffer' href='https://lkilp.github.io/quiz/'>
+            <a className='project quiz' target='_blank' rel='noreferrer' href='https://lkilp.github.io/quiz/'>
                 <div className='background'></div>
                 <div className='projectLink'>Dutch quiz</div>
             </a>
