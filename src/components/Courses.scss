@@ -1,5 +1,5 @@
 .Courses {
-    min-height: 200vw;
+    min-height: calc(200*var(--vh));
     position: relative;
     overflow: hidden;
     &::before {
