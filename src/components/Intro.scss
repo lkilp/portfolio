@@ -16,6 +16,11 @@
     background-attachment: fixed;
     background-image: url('../assets/pictures/leaf-pexels-suzy-hazelwood-2495651.jpg');
     opacity: 0.9;
+
+    @media only screen and (max-width: 600px) {
+        background-size: 1400px;
+    }
+
     }
     .introInfo {
         color: white;
