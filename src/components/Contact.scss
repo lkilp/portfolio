@@ -1,5 +1,5 @@
 .Contact {
-    min-height: 100vh;
+    min-height: calc(100*var(--vh));
     position: relative;
     display: flex;
     justify-content: center;

@@ -1,5 +1,6 @@
 .Intro {
-    min-height: 100vh;
+    // min-height: 100vh;
+    min-height: calc(100*var(--vh));
     display: flex;
     justify-content: center;
     align-items: center;
