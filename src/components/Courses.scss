@@ -1,9 +1,5 @@
 .Courses {
-<<<<<<< HEAD
-    min-height: calc(200*var(--vh));
-=======
     height: 200vw;
->>>>>>> fix media screen resizing and add jammming project
     position: relative;
     overflow: hidden;
     &::before {
