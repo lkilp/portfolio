@@ -8,20 +8,25 @@
     align-items: center;
 
     .project {
-        width: 30vw;
-        height: 30vw;
+        width: 50vw;
+        height: 50vw;
+        margin: 2vw;
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
         z-index: 1;
         text-decoration: none;
+        
+        @media only screen and (max-width: 600px) {
+                width: 80vw;
+                height: 80vw;
+            }
         .projectLink {
             color: white;
             text-shadow: 0 0 10px var(--policeBlue);
             font-weight: bold;
             font-size: 4vw;
-            
         }
 
         .background {
@@ -31,18 +36,25 @@
             height: 100%;
             opacity: 0.6;
             filter: grayscale(80%);
+            transition: transform .5s;
         }
 
         &.quiz .background {
             background: url('../assets/pictures/lkilp.github.io_quiz_.png');
             background-size: cover;
         }
+
+        &.jammming .background {
+            background: url('../assets/pictures/lkilp.github.io_jammming.png');
+            background-size: cover;
+        }
     }
 
     .project:hover {
         .background {
-            opacity: 0.85;
+            opacity: 0.8;
             filter: none;
+            transform: scale(1.05);
         }
         .projectLink {
             display: none;

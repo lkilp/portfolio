@@ -18,7 +18,7 @@
     background-image: url('../assets/pictures/contact-with-picture-and-opacity-pexels-jess-bailey-designs-1558690.jpg');
     
     background-position: right;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 600px) and (max-height: 750px) {
         background-position:  -410px 0;
         background-size: 1000px;
     }

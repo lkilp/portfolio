@@ -1,5 +1,9 @@
 .Courses {
+<<<<<<< HEAD
     min-height: calc(200*var(--vh));
+=======
+    height: 200vw;
+>>>>>>> fix media screen resizing and add jammming project
     position: relative;
     overflow: hidden;
     &::before {
@@ -15,8 +19,8 @@
     background-image: url('../assets/pictures/cubes-pexels-photo-1005644.jpeg');
     opacity: 0.75;
 
-    @media only screen and (max-width: 600px) {
-        background-size: 200vw;
+    @media only screen and (max-width: 600px) and (max-height: 750px) {
+        background-size: 1000px;
     }
 
     }
