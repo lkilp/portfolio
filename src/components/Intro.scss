@@ -18,7 +18,7 @@
     background-image: url('../assets/pictures/leaf-pexels-suzy-hazelwood-2495651.jpg');
     opacity: 0.9;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 600px) and (max-height: 750px) {
         background-size: 1400px;
     }
 
