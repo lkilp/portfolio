@@ -37,6 +37,10 @@
             opacity: 0.6;
             filter: grayscale(80%);
             transition: transform .5s;
+            -webkit-backface-visibility: hidden; 
+    -ms-transform: translateZ(0); /* IE 9 */
+    -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+    transform: translateZ(0);
         }
 
         &.quiz .background {
@@ -51,6 +55,11 @@
 
         &.swimster .background {
             background: url('../assets/pictures/lkilp.github.io_swimster_.png');
+            background-size: cover;
+        }
+
+        &.leaf .background {
+            background: url('../assets/pictures/lkilp.github.io_leaf_.png');
             background-size: cover;
         }
     }
