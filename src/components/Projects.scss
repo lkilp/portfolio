@@ -38,9 +38,9 @@
             filter: grayscale(80%);
             transition: transform .5s;
             -webkit-backface-visibility: hidden; 
-    -ms-transform: translateZ(0); /* IE 9 */
-    -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
-    transform: translateZ(0);
+            -ms-transform: translateZ(0); /* IE 9 */
+            -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+            transform: translateZ(0);
         }
 
         &.quiz .background {
@@ -60,6 +60,11 @@
 
         &.leaf .background {
             background: url('../assets/pictures/lkilp.github.io_leaf_.png');
+            background-size: cover;
+        }
+
+        &.memory .background {
+            background: url('../assets/pictures/localhost_3000_ (2).png');
             background-size: cover;
         }
     }
