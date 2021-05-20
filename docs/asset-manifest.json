@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.6394d365.chunk.css",
+    "main.css": "./static/css/main.53b2478f.chunk.css",
     "main.js": "./static/js/main.71ace2dd.chunk.js",
     "main.js.map": "./static/js/main.71ace2dd.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.f72f156b.js",
@@ -10,18 +10,18 @@
     "static/js/3.672cf060.chunk.js": "./static/js/3.672cf060.chunk.js",
     "static/js/3.672cf060.chunk.js.map": "./static/js/3.672cf060.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.6394d365.chunk.css.map": "./static/css/main.6394d365.chunk.css.map",
+    "static/css/main.53b2478f.chunk.css.map": "./static/css/main.53b2478f.chunk.css.map",
     "static/js/2.6d517154.chunk.js.LICENSE.txt": "./static/js/2.6d517154.chunk.js.LICENSE.txt",
     "static/media/codecademy.ce3fa7d3.svg": "./static/media/codecademy.ce3fa7d3.svg",
     "static/media/Contact.scss": "./static/media/contact-with-picture-and-opacity-pexels-jess-bailey-designs-1558690.7842c792.jpg",
     "static/media/Courses.scss": "./static/media/cubes-pexels-photo-1005644.f261929b.jpeg",
     "static/media/Intro.scss": "./static/media/leaf-pexels-suzy-hazelwood-2495651.6d2b952a.jpg",
-    "static/media/Projects.scss": "./static/media/localhost_3000_ (2).8021ac1f.png"
+    "static/media/Projects.scss": "./static/media/localhost_3000_ (2).5dccbe0e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f72f156b.js",
     "static/js/2.6d517154.chunk.js",
-    "static/css/main.6394d365.chunk.css",
+    "static/css/main.53b2478f.chunk.css",
     "static/js/main.71ace2dd.chunk.js"
   ]
 }
