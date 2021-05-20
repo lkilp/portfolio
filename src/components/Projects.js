@@ -19,6 +19,10 @@ const Projects = () => {
                 <div className='background'></div>
                 <div className='projectLink'>Leaf</div>
             </a>
+            <a className='project huddle' target='_blank' rel='noreferrer' href='https://lkilp.github.io/huddle/'>
+                <div className='background'></div>
+                <div className='projectLink'>Huddle</div>
+            </a>
             <a className='project memory' target='_blank' rel='noreferrer' href='https://lkilp.github.io/memory/'>
                 <div className='background'></div>
                 <div className='projectLink'>Memory</div>
