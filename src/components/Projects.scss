@@ -44,6 +44,11 @@
             transform: translateZ(0);
         }
 
+        &.pricing-component .background {
+            background: url('../assets/pictures/lkilp.github.io_pricing-component_.png');
+            background-size: cover;
+        }
+
         &.quiz .background {
             background: url('../assets/pictures/lkilp.github.io_quiz_.png');
             background-size: cover;
@@ -84,7 +89,6 @@
             background-size: cover;
         }
     }
-
     .project:hover {
         .background {
             opacity: 0.8;
