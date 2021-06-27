@@ -8,8 +8,9 @@
     align-items: center;
 
     .project {
-        width: 50vw;
-        height: 50vw;
+        --size: 50vw;
+        width: var(--size);
+        height: var(--size);
         margin: 2vw;
         display: flex;
         justify-content: center;
@@ -18,15 +19,11 @@
         z-index: 1;
         text-decoration: none;
         
-        @media only screen and (max-width: 600px) {
-                width: 80vw;
-                height: 80vw;
-            }
         .projectLink {
             color: white;
             text-shadow: 0 0 10px var(--policeBlue);
             font-weight: bold;
-            font-size: 4vw;
+            font-size: 3vw;
         }
 
         .background {
@@ -34,8 +31,7 @@
             z-index: -1;
             width: 100%;
             height: 100%;
-            opacity: 0.6;
-            filter: grayscale(80%);
+            opacity: 0.8;
             transition: transform .5s;
             -webkit-backface-visibility: hidden; 
             backface-visibility: hidden;
@@ -46,6 +42,11 @@
 
         &.pricing-component .background {
             background: url('../assets/pictures/lkilp.github.io_pricing-component_.png');
+            background-size: cover;
+        }
+
+        &.crowdfund .background {
+            background: url('../assets/pictures/lkilp.github.io_crowdfund_.png');
             background-size: cover;
         }
 
@@ -91,12 +92,55 @@
     }
     .project:hover {
         .background {
-            opacity: 0.8;
+            opacity: 1;
             filter: none;
             transform: scale(1.05);
         }
         .projectLink {
             display: none;
         }
+    }
+
+    @media screen and (min-width: 800px) {
+        .project-examples {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .project {
+            --size: 40vw;
+            width: var(--size);
+            height: var(--size);
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .project {
+            --size: 80vw;
+            width: var(--size);
+            height: var(--size);
+            margin: 30px 0;
+        }
+    }
+
+    @media screen and (max-width: 475px) {
+        .project {
+            .background {
+                opacity: 1;
+                transition: none;
+            }
+        }
+
+        .project:hover {
+            .background {
+                opacity: 1;
+                transform: none;
+            }
+        }
+
+        .projectLink {
+            display: none;
+        }
+        
     }
 }
