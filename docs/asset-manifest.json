@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.eb4ba9c5.chunk.css",
-    "main.js": "./static/js/main.97140499.chunk.js",
-    "main.js.map": "./static/js/main.97140499.chunk.js.map",
+    "main.css": "./static/css/main.b95aca13.chunk.css",
+    "main.js": "./static/js/main.01229ad7.chunk.js",
+    "main.js.map": "./static/js/main.01229ad7.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.f72f156b.js",
     "runtime-main.js.map": "./static/js/runtime-main.f72f156b.js.map",
     "static/js/2.6d517154.chunk.js": "./static/js/2.6d517154.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.672cf060.chunk.js": "./static/js/3.672cf060.chunk.js",
     "static/js/3.672cf060.chunk.js.map": "./static/js/3.672cf060.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.eb4ba9c5.chunk.css.map": "./static/css/main.eb4ba9c5.chunk.css.map",
+    "static/css/main.b95aca13.chunk.css.map": "./static/css/main.b95aca13.chunk.css.map",
     "static/js/2.6d517154.chunk.js.LICENSE.txt": "./static/js/2.6d517154.chunk.js.LICENSE.txt",
     "static/media/codecademy.ce3fa7d3.svg": "./static/media/codecademy.ce3fa7d3.svg",
     "static/media/Contact.scss": "./static/media/contact-with-picture-and-opacity-pexels-jess-bailey-designs-1558690.7842c792.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.f72f156b.js",
     "static/js/2.6d517154.chunk.js",
-    "static/css/main.eb4ba9c5.chunk.css",
-    "static/js/main.97140499.chunk.js"
+    "static/css/main.b95aca13.chunk.css",
+    "static/js/main.01229ad7.chunk.js"
   ]
 }
