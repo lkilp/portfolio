@@ -18,7 +18,7 @@
         position: relative;
         z-index: 1;
         text-decoration: none;
-        
+
         .projectLink {
             color: white;
             text-shadow: 0 0 10px var(--policeBlue);
@@ -32,8 +32,8 @@
             width: 100%;
             height: 100%;
             opacity: 0.8;
-            transition: transform .5s;
-            -webkit-backface-visibility: hidden; 
+            transition: transform 0.5s;
+            -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
             -ms-transform: translateZ(0); /* IE 9 */
             -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
@@ -41,52 +41,62 @@
         }
 
         &.pricing-component .background {
-            background: url('../assets/pictures/lkilp.github.io_pricing-component_.png');
+            background: url("../assets/pictures/lkilp.github.io_pricing-component_.png");
             background-size: cover;
         }
 
         &.crowdfund .background {
-            background: url('../assets/pictures/lkilp.github.io_crowdfund_.png');
+            background: url("../assets/pictures/lkilp.github.io_crowdfund_.png");
             background-size: cover;
         }
 
         &.quiz .background {
-            background: url('../assets/pictures/lkilp.github.io_quiz_.png');
+            background: url("../assets/pictures/lkilp.github.io_quiz_.png");
             background-size: cover;
         }
 
         &.blogr .background {
-            background: url('../assets/pictures/lkilp.github.io_blogr_.png');
+            background: url("../assets/pictures/lkilp.github.io_blogr_.png");
             background-size: cover;
         }
 
         &.jammming .background {
-            background: url('../assets/pictures/lkilp.github.io_jammming.png');
+            background: url("../assets/pictures/lkilp.github.io_jammming.png");
             background-size: cover;
         }
 
         &.huddle .background {
-            background: url('../assets/pictures/lkilp.github.io_huddle_ .png');
+            background: url("../assets/pictures/lkilp.github.io_huddle_ .png");
             background-size: cover;
         }
 
         &.swimster .background {
-            background: url('../assets/pictures/lkilp.github.io_swimster_.png');
+            background: url("../assets/pictures/lkilp.github.io_swimster_.png");
             background-size: cover;
         }
 
         &.leaf .background {
-            background: url('../assets/pictures/lkilp.github.io_leaf_.png');
+            background: url("../assets/pictures/lkilp.github.io_leaf_.png");
+            background-size: cover;
+        }
+
+        &.dashboard .background {
+            background: url("../assets/pictures/lkilp.github.io_dashboard_.png");
+            background-size: cover;
+        }
+
+        &.room .background {
+            background: url("../assets/pictures/lkilp.github.io_room_.png");
             background-size: cover;
         }
 
         &.memory .background {
-            background: url('../assets/pictures/localhost_3000_ (2).png');
+            background: url("../assets/pictures/localhost_3000_ (2).png");
             background-size: cover;
         }
 
         &.fylo .background {
-            background: url('../assets/pictures/lkilp.github.io_fylo_.png');
+            background: url("../assets/pictures/lkilp.github.io_fylo_.png");
             background-size: cover;
         }
     }
@@ -141,6 +151,5 @@
         .projectLink {
             display: none;
         }
-        
     }
 }

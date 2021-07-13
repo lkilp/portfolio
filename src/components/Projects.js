@@ -45,6 +45,16 @@ const Projects = () => {
             title: 'Fylo',
         },
         {
+            name: 'dashboard',
+            url: 'https://lkilp.github.io/dashboard/',
+            title: 'Social Media Dashboard',
+        },
+        {
+            name: 'room',
+            url: 'https://lkilp.github.io/room/',
+            title: 'Room',
+        },
+        {
             name: 'pricing-component',
             url: 'https://lkilp.github.io/pricing-component/',
             title: 'Pricing component',
@@ -60,12 +70,12 @@ const Projects = () => {
         <div className='Projects'>
             <h3>Projects</h3>
             <div className="project-examples">
-                { projects.map(project => {
+                {projects.map(project => {
                     const { name, url, title } = project;
-                    return ( <a className={'project ' + name} target='_blank' rel='noreferrer' href={url}>
+                    return (<a className={'project ' + name} target='_blank' rel='noreferrer' href={url}>
                         <div className='background'></div>
                         <div className='projectLink'>{title}</div>
-                    </a> )
+                    </a>)
                 })}
             </div>
         </div>
